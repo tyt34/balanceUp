@@ -1,0 +1,26 @@
+.balanceInputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.balanceLabel {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
+
+.keyboardGrid {
+  display: grid;
+  gap: 10px;
+}
+
+.keyboardRow {
+  display: grid;
+  gap: 10px;
+}
+
+.keyboardButton {
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+.navigation {
+  padding: 30px;
+}
+
+.navigation__description {
+  font-size: 22px;
+}
+
+.navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

@@ -1,0 +1,11 @@
+@use '@constants' as constants;
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: constants.$green;
+  color: constants.$white;
+  top: 0;
+  gap: 20px;
+}

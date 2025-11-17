@@ -1,7 +1,9 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { StrictMode } from 'react'
+import App from './app/app.tsx'
+
+import 'bootstrap/dist/css/bootstrap.min.css' // <-- подключаем Bootstrap
 import './index.css'
-import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
