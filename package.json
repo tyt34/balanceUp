@@ -1,12 +1,12 @@
 {
-  "name": "openlayers",
+  "name": "balanceUp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://tyt34.github.io/BalanceUp/",
   "scripts": {
     "build": "tsc -b && vite build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "lint": "eslint .",
     "predeploy": "npm run build",
@@ -46,5 +46,9 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "engines": {
+    "node": "20.19.5",
+    "npm": "10.8.2"
   }
 }
